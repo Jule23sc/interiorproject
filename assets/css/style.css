@@ -17,16 +17,15 @@
 }
 @font-face {
     font-family: Helveticaneue, sans-serif;
-    src: url(../font/Helvetica\ Neue/Helvetica);
+    src: url(../font/Helveticaneue/Helveticaneue.otf);
 }
 body {
-    color: white;
     width: 1440px;
-    /*overflow-x: hidden;*/
 }
 /*//header//*/
 .livingroom {
     background: url(../img/eins_wohnzimmer.png);
+    color: white;
     background-size: contain;
     background-repeat: no-repeat;
     width: 90rem;

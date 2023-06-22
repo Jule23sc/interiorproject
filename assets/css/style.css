@@ -66,12 +66,13 @@ body {
     font-family: Alegreyasc;
 }
 .neugalerie {
+    align-content: center;
     display: grid;
-    grid-template-columns: 350px 350px 350px;
+    justify-content: center;
     gap: 20px;
-    
+    grid-template-columns: 320px 320px 320px;
 }
 .neugalerie img {
-    width: 22rem;
     height: 14rem;
+    width: 20rem;
 }
